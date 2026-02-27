@@ -1,5 +1,5 @@
 deploy/
 bootstrap
 cdk.out/
-lambda
-local
+/lambda
+/local
