@@ -8,7 +8,7 @@ test:
 	go test ./...
 
 deploy: build
-	cd infra && cdk deploy
+	cd infra && cdk deploy --require-approval never
 
 dev:
 	go run cmd/local/main.go
